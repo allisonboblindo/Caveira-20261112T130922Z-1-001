@@ -1,0 +1,42 @@
+[2026-11-12T03:31:09.074Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=17320
+[2026-11-12T03:31:09.075Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.99)
+[2026-11-12T03:31:09.088Z] [INFO] log TLS trust: NODE_USE_SYSTEM_CA=on systemCAs=61 bundledCAs=145
+[2026-11-12T03:31:09.088Z] [INFO] log Starting relay server...
+[2026-11-12T03:31:09.088Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","17320","--shutdown-delay","180","--log-dir","C:\\Users\\greco\\OneDrive\\Documentos\\GitHub\\Projeto-da-Caveira-2026-main\\Logs"]
+[2026-11-12T03:31:09.089Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"17320","shutdownDelaySeconds":180}
+[2026-11-12T03:31:09.090Z] [INFO] log Initializing relay components...
+[2026-11-12T03:31:09.091Z] [INFO] log Creating RelayEditor...
+[2026-11-12T03:31:09.100Z] [INFO] log WebSocket server started
+[2026-11-12T03:31:09.102Z] [INFO] log MCP Client initialized at port: 9002
+[2026-11-12T03:31:09.101Z] [INFO] log Relay server initialization completed
+[2026-11-12T03:31:09.117Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-11-12T03:31:09.146Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-11-12T03:31:09.577Z] [INFO] log Unity client connected with ID: editor-17320-q7xew9 (relay 1.0.12-build.99)
+[2026-11-12T03:31:09.578Z] [INFO] connection.established clientId=editor-17320-q7xew9 port=9001
+[2026-11-12T03:31:38.510Z] [INFO] log Domain reload signal received from client editor-17320-q7xew9
+[2026-11-12T03:31:38.511Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-11-12T03:31:38.512Z] [DEBUG] acp.queue.pause depth=0
+[2026-11-12T03:31:39.387Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-11-12T03:31:39.388Z] [DEBUG] acp.queue.pause depth=0
+[2026-11-12T03:31:39.388Z] [INFO] log Client disconnected - blocking and caching for recovery
+[2026-11-12T03:31:39.389Z] [WARN] connection.lost clientId=null
+[2026-11-12T03:31:39.390Z] [WARN] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-11-12T03:31:39.390Z] [INFO] log Auto-shutdown timer started due to client disconnection
+[2026-11-12T03:31:49.782Z] [DEBUG] log Relay->Editor communication is unblocked
+[2026-11-12T03:31:49.782Z] [INFO] log Unity client connected with ID: editor-17320-fve0xe (relay 1.0.12-build.99)
+[2026-11-12T03:31:49.783Z] [INFO] connection.established clientId=editor-17320-fve0xe port=9001
+[2026-11-12T03:32:46.195Z] [INFO] log Domain reload signal received from client editor-17320-fve0xe
+[2026-11-12T03:32:46.195Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-11-12T03:32:46.196Z] [DEBUG] acp.queue.pause depth=0
+[2026-11-12T03:32:46.885Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-11-12T03:32:46.886Z] [DEBUG] acp.queue.pause depth=0
+[2026-11-12T03:32:46.886Z] [INFO] log Client disconnected - blocking and caching for recovery
+[2026-11-12T03:32:46.887Z] [WARN] connection.lost clientId=null
+[2026-11-12T03:32:46.888Z] [WARN] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-11-12T03:32:46.888Z] [INFO] log Auto-shutdown timer started due to client disconnection
+[2026-11-12T03:32:57.545Z] [DEBUG] log Relay->Editor communication is unblocked
+[2026-11-12T03:32:57.546Z] [INFO] log Unity client connected with ID: editor-17320-xfju3d (relay 1.0.12-build.99)
+[2026-11-12T03:32:57.546Z] [INFO] connection.established clientId=editor-17320-xfju3d port=9001
+[2026-11-12T03:33:29.572Z] [INFO] log Shutdown request received from client editor-17320-xfju3d
+[2026-11-12T03:33:29.573Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-11-12T03:33:29.574Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
